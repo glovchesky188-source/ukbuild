@@ -1,11 +1,23 @@
 {
-    "version":  "2026.11.23-0004",
+    "version":  "2026.11.25-1435",
     "files":  [
                   {
                       "path":  "bass.dll",
-                      "size":  92216,
-                      "sha256":  "3f04620d6627abe5c3b4747faf26603ab7a006c81b2021ab4689bdd7033bb4cd",
+                      "size":  127669,
+                      "sha256":  "6303f205127c3b16d9cf1bdf4617c96109a03c5f2669341fbc0e1d37cd776b29",
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/bass.dll"
+                  },
+                  {
+                      "path":  "CLEO.asi",
+                      "size":  497152,
+                      "sha256":  "d802a5215f2a5c421998dc6bbf9734819950eed034fa4cfd66e92d8ec9e2dc9e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/CLEO.asi"
+                  },
+                  {
+                      "path":  "cleo.log",
+                      "size":  19594,
+                      "sha256":  "000a934fd6aec2d10e91623113e845f4e75d9be41b383ab31e5734c175da3fc8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo.log"
                   },
                   {
                       "path":  "eax.dll",
@@ -44,10 +56,40 @@
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/gta_sa.exe"
                   },
                   {
+                      "path":  "lcmods.ini",
+                      "size":  3679,
+                      "sha256":  "73a527818752eb60a3f90ec3c5b293534ddab25dd671a2150af8613220e78760",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/lcmods.ini"
+                  },
+                  {
+                      "path":  "lcmods.log",
+                      "size":  28095,
+                      "sha256":  "820a10766df4d0203628954605a05dc69cc61d8e2888e3178922d97372ece732",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/lcmods.log"
+                  },
+                  {
+                      "path":  "lua51.dll",
+                      "size":  391680,
+                      "sha256":  "bc043fe6406de6559920c00b18b0f2dc3949bfa2874087502553e7f0f91bc4fa",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/lua51.dll"
+                  },
+                  {
                       "path":  "modloader.asi",
                       "size":  700928,
                       "sha256":  "9354beb050850fb4c5188e45241d0aa661b6994b9353064ff1ade90d7aa5fcd8",
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/modloader.asi"
+                  },
+                  {
+                      "path":  "MoonLoader.asi",
+                      "size":  1729536,
+                      "sha256":  "2395c039a13cb484342e2f9b4fb6e1da092e1f27abe209994ea27e4bc7762875",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/MoonLoader.asi"
+                  },
+                  {
+                      "path":  "MoonLoader.txt",
+                      "size":  214,
+                      "sha256":  "f137f840a70e107103c741bdc53412847eb5682d242ecf708d363ef270bacdd1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/MoonLoader.txt"
                   },
                   {
                       "path":  "MoreVehicles.asi",
@@ -146,16 +188,16 @@
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/vorbis.dll"
                   },
                   {
-                      "path":  "vorbisfile.dll",
-                      "size":  18944,
-                      "sha256":  "a31cbc43a80a6737137500516b6e1973f47e93c24c8599e007f5272747ff0548",
-                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/vorbisfile.dll"
+                      "path":  "vorbisFile.dll",
+                      "size":  53760,
+                      "sha256":  "6ccf42587caeee3a09f6372a4e73cc657ea67c7fdc0234017a39adaac6d7bc80",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/vorbisFile.dll"
                   },
                   {
-                      "path":  "vorbishooked.dll",
+                      "path":  "vorbisHooked.dll",
                       "size":  65536,
                       "sha256":  "a08923479000cec366967fb8259e0920b7aa18859722c7dda1415726bed4774f",
-                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/vorbishooked.dll"
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/vorbisHooked.dll"
                   },
                   {
                       "path":  "Y-Axis_Sensitivity_Fix_gta3vcsa.asi",
@@ -372,6 +414,78 @@
                       "size":  1242098,
                       "sha256":  "b617070de476ed766be8155124e61d3cbccf9bedc4fccef5b1fc787e6eca8768",
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/audio__streams__TK"
+                  },
+                  {
+                      "path":  "cleo/.cleo_config.ini",
+                      "size":  3564,
+                      "sha256":  "17dc3bcbd6be0e00e0e10044fbb0997a71700f9b014ce4f8430e1bf1be074dfb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__.cleo_config.ini"
+                  },
+                  {
+                      "path":  "cleo/.config/enums.json",
+                      "size":  102837,
+                      "sha256":  "2d26fd815930f44c6094727fbbc6025729d84b553be8986db0cc5df1e08f2b6f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__.config__enums.json"
+                  },
+                  {
+                      "path":  "cleo/.config/sa.json",
+                      "size":  1881927,
+                      "sha256":  "df63192ace9fd1866c8087c2f01771afda370edacf27cc141e2230b9475be3bc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__.config__sa.json"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.Audio.cleo",
+                      "size":  218112,
+                      "sha256":  "db9d7eabcc06fa49c9acee6edb52a4e0547e6ed10ad99ba324a966f40db9bbc8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.Audio.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.DebugUtils.cleo",
+                      "size":  415232,
+                      "sha256":  "12fbe66a2a875bfae956c7c26f89517d6bd0e62efa2bf674ff5abb9ed704870b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.DebugUtils.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.FileSystemOperations.cleo",
+                      "size":  246272,
+                      "sha256":  "2a9b177863c009045214d4e120f1a477ca0f8dfff9654f561b4e0e9694e3bc7c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.FileSystemOperations.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.GameEntities.cleo",
+                      "size":  153088,
+                      "sha256":  "745cf5fd021e9d5759cf52dc10c01fbc40e5f7ecd1fb5524d31c376a3bd9c0a1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.GameEntities.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.IniFiles.cleo",
+                      "size":  173568,
+                      "sha256":  "e9f14a84edc0c95d0e684ac0e19218f7506851c7fb1ec1ff068ac97e16d6938c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.IniFiles.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.Input.cleo",
+                      "size":  151040,
+                      "sha256":  "2bf6256b88b46d1f3fcb2654eb821c249c3c393a889d8eb9599370c0e6c5d640",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.Input.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.Math.cleo",
+                      "size":  180736,
+                      "sha256":  "f23d605aa8660fca316df7fb2aad7836a874f582c874907c5e136452003be74e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.Math.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.MemoryOperations.cleo",
+                      "size":  193536,
+                      "sha256":  "0a6312ee08fc5069e66a97a748886269f40c045868f67ae2a25d339abcee31cc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.MemoryOperations.cleo"
+                  },
+                  {
+                      "path":  "cleo/cleo_plugins/SA.Text.cleo",
+                      "size":  313856,
+                      "sha256":  "24f5505999f94cbbc1859d75b7c61cc59c44f1ef31aceb8320ee2e4190acd572",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/cleo__cleo_plugins__SA.Text.cleo"
                   },
                   {
                       "path":  "data/animgrp.dat",
@@ -2037,8 +2151,8 @@
                   },
                   {
                       "path":  "models/gta3.img",
-                      "size":  1032787968,
-                      "sha256":  "e793456d24c2dc1083fe65b2d49ab44afe3356a716b7a253dfcaa99934ddc189",
+                      "size":  1540880384,
+                      "sha256":  "e08446d6b7af2fc25ae39b57c4fb2871d26be350b00a69c7f10c12063041cffa",
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/models__gta3.img"
                   },
                   {
@@ -2553,8 +2667,8 @@
                   },
                   {
                       "path":  "modloader/modloader.log",
-                      "size":  2624,
-                      "sha256":  "f5f7fd734dd0a3e67aeb5c61ae1c5520b6873ec528d429745d51b8c6bca1ce93",
+                      "size":  12456,
+                      "sha256":  "3b938c32cd5af0b22a7ad59e2311860b01009997248731a902b34bf2a6a14e75",
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/modloader__modloader.log"
                   },
                   {
@@ -2774,16 +2888,2128 @@
                       "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/modloader__.data__text__1033__menu.fxt"
                   },
                   {
-                      "path":  "modloader/cars/G63/huntley.dff",
-                      "size":  11438080,
-                      "sha256":  "0fab5c1dfa8eff69b0ffe301a7804ea839884c41546a45f9c7e1a697d91b38df",
-                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/modloader__cars__G63__huntley.dff"
+                      "path":  "moonloader/moonloader.log",
+                      "size":  1618,
+                      "sha256":  "57988224dafbe2356a2606100ef5d067165b14055b9c451c16c59e55c307a61e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__moonloader.log"
                   },
                   {
-                      "path":  "modloader/cars/G63/huntley.txd",
-                      "size":  11819448,
-                      "sha256":  "85a8dad0847bd6d109def52342bb2bd4efd52cfaa8afde7a4882872a340f1b58",
-                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/modloader__cars__G63__huntley.txd"
+                      "path":  "moonloader/ukload.lua",
+                      "size":  6900,
+                      "sha256":  "cf3d759a60cfa69422c077a31aff6b1b919315f11cc130a3b618e13576ab7d6f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__ukload.lua"
+                  },
+                  {
+                      "path":  "moonloader/ukmenu.lua",
+                      "size":  45204,
+                      "sha256":  "1df9c3eaeb28fd1698e8b54cc0e1b09022d85bd99f80f11b2c60228878ecc0fa",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__ukmenu.lua"
+                  },
+                  {
+                      "path":  "moonloader/config/ukmenu.cfg",
+                      "size":  56,
+                      "sha256":  "c9c845c989c24b99b68b20b7d2f765f9b48f3647437cb49e73fd8a770f2d6c43",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__config__ukmenu.cfg"
+                  },
+                  {
+                      "path":  "moonloader/lib/mimgui/cdefs.lua",
+                      "size":  118018,
+                      "sha256":  "8e5d3488f23c446a6a8a61b6b0ecc25cc38f326257b14801023bfad3bf650a7e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__lib__mimgui__cdefs.lua"
+                  },
+                  {
+                      "path":  "moonloader/lib/mimgui/cimguidx9.dll",
+                      "size":  543744,
+                      "sha256":  "1a7a059974c33095edc2f2da880d7c79c99d7e3b3c189e2f51036bb7e519d88b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__lib__mimgui__cimguidx9.dll"
+                  },
+                  {
+                      "path":  "moonloader/lib/mimgui/dx9.lua",
+                      "size":  6717,
+                      "sha256":  "617029534c747c9ef91cdf9674e1d399cda3cca719e9aa91240b423ad4e2624f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__lib__mimgui__dx9.lua"
+                  },
+                  {
+                      "path":  "moonloader/lib/mimgui/imgui.lua",
+                      "size":  103788,
+                      "sha256":  "dac0e8cad50f766f8284a6bfeccb9ce275aa809d842e90ce81de52991cd87e9a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__lib__mimgui__imgui.lua"
+                  },
+                  {
+                      "path":  "moonloader/lib/mimgui/init.lua",
+                      "size":  14627,
+                      "sha256":  "8a1187a313da1b4eade4dcb9e959e770af99163c2c965d37b46c88aef892a182",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__lib__mimgui__init.lua"
+                  },
+                  {
+                      "path":  "moonloader/lib/mimgui/win32.lua",
+                      "size":  2276,
+                      "sha256":  "90a3e731b1df60d2022c6935631553b2424aa28ae45b84797c62d5119df95bee",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__lib__mimgui__win32.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/bitex.lua",
+                      "size":  169,
+                      "sha256":  "49f154f02cba7256a2a0965035483f40b541f289dc021521f192a2c093d19c5d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__bitex.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/deps.lua",
+                      "size":  12381,
+                      "sha256":  "a80f627caebf1183e0dba54ea12cc74606580d384f4fd2641bf55841adafe23e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__deps.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/des56.dll",
+                      "size":  13824,
+                      "sha256":  "0b524c58f991acf0f384a757bf4ef7193c8b04833c918b8aa6ee0641f3e819e4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__des56.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/encoding.lua",
+                      "size":  2636,
+                      "sha256":  "57cb02218d46eb1b8b2b14ecde30fc0d1798fad9c69c2138ff9a7bf63d3efe9d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__encoding.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/gzip.lua",
+                      "size":  1838,
+                      "sha256":  "d81aab700f8382f88d7c48b26db9c3a0d5ec86edcd28f85e6f85ea6066c14c5a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__gzip.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/iconv.dll",
+                      "size":  1000960,
+                      "sha256":  "bb4cc421b7606055d1d517775b15ce77a27ad97b14de2fc31c9d9e3cf788b98f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__iconv.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/inicfg.lua",
+                      "size":  2802,
+                      "sha256":  "e6cbee1e6ced0755ea01f1b51f24cca369fecaddae1ee0857d97756f04413d66",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__inicfg.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/lfs.dll",
+                      "size":  14848,
+                      "sha256":  "48ed7e8da34c2e1ec53640a05ad90822703013e4d71d87ff74468a6d21a8e0bc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__lfs.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/ltn12.lua",
+                      "size":  8331,
+                      "sha256":  "3bf0000f86d25da94089d47de3bbb204fd5be491edbe275730e73f68c710ea42",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__ltn12.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/matrix3x3.lua",
+                      "size":  2070,
+                      "sha256":  "4ac3e8f840fdf294edce96a95e3199b2c6b5ea115036a2fd9862742d5db3d4e9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__matrix3x3.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/md5.lua",
+                      "size":  836,
+                      "sha256":  "921f2e4d48d8987be0eb96a93762a918bbdd825b7c506ef68aedf1b217ae6355",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__md5.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/memory.lua",
+                      "size":  8214,
+                      "sha256":  "6773cf7b1ac4ab97a33341361cb0ad7f604d6195b774ab5c25ec773acc5c05ca",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__memory.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/mime.lua",
+                      "size":  2487,
+                      "sha256":  "a548fc214ac1e935afa683df9bdbeded0ca60cf353dfcc16f6db0187b9fc512d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__mime.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/mimetypes.lua",
+                      "size":  11616,
+                      "sha256":  "f8dd80fbdc86a9f08ba2555a4ff6371cdf4de21badb802f7a60af0696b923188",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__mimetypes.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/moonloader.lua",
+                      "size":  3171,
+                      "sha256":  "58dc9a058468f53efda285b2e1bc41318ca84e1e0c4821e38c70766029c1530e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__moonloader.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/sampfuncs.lua",
+                      "size":  15207,
+                      "sha256":  "7c2528ec287d4ffdcb381f3a96a6678361075828cc727e9ff2e9cb91d4ad0cd3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__sampfuncs.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket.lua",
+                      "size":  4451,
+                      "sha256":  "332871e3beeaccf8bff18cde1509e81c2bd16beb511b1fe586c12862dc7667b2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/ssl.dll",
+                      "size":  1795584,
+                      "sha256":  "153968ef67bf388853932368219a82e951cafad2e21c7c04bb52ef78660b3354",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__ssl.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/ssl.lua",
+                      "size":  5023,
+                      "sha256":  "98018d8271e632b592d4f80f62768292da17077aa9acff44c778ab0c96037cfe",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__ssl.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/vector3d.lua",
+                      "size":  1770,
+                      "sha256":  "53ef9eedad5994e05320dcb5c14b504dd6c09e6a70111d76eb60a52d6c4a68af",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__vector3d.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/vkeys.lua",
+                      "size":  9814,
+                      "sha256":  "a74b3f76666e8c8b9fa078e239bcfd3123762ee064c242f9349fdda9a449718b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__vkeys.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/zlib.dll",
+                      "size":  59904,
+                      "sha256":  "277a51ee85b38b5f27a550e9ea41b0dd70f88d1c99e716231d5f0629c5eea7a8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__zlib.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/extensions/bit.lua",
+                      "size":  555,
+                      "sha256":  "b71408bbea96d90f5f2a697d5fba030628e900f67831b7e75841f50c7cbc2028",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__extensions__bit.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/game/globals.lua",
+                      "size":  28363,
+                      "sha256":  "f8b12223b5bc4909b90d7b4774c43668f123d094ade3d0d379cb0514e7815c39",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__game__globals.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/game/keys.lua",
+                      "size":  1062,
+                      "sha256":  "10bfe26a67586eabf07823077ab5ba6acd78ebda7666179eaea91fcf2a6a5836",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__game__keys.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/game/models.lua",
+                      "size":  12767,
+                      "sha256":  "89df5bc437ec5a09c056d3d83dd78d15851ff52047951decd77c279e1c1096d4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__game__models.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/game/weapons.lua",
+                      "size":  2443,
+                      "sha256":  "ab044731f71a30a426e2d1aac1936169d4b558a5f6fe11d81c5c290ad0ae1e98",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__game__weapons.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/iconv/COPYING-libiconv",
+                      "size":  25291,
+                      "sha256":  "56bdea73b6145ef6ac5259b3da390b981d840c24cb03b8e1cbc678de7ecfa18d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__iconv__COPYING-libiconv"
+                  },
+                  {
+                      "path":  "moonloader/libstd/iconv/README-libiconv",
+                      "size":  5801,
+                      "sha256":  "b4f5932ef35fe4a66ae9e8eecf1bac0702fe2a75ece40861baf3ebbc0ee9ed02",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__iconv__README-libiconv"
+                  },
+                  {
+                      "path":  "moonloader/libstd/iconv/README-lua-iconv",
+                      "size":  4755,
+                      "sha256":  "7aebae7bea8fb38be3aa18b6e2e6298f9370bfe0b3415ac19fe4d04ba5fca58a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__iconv__README-lua-iconv"
+                  },
+                  {
+                      "path":  "moonloader/libstd/md5/core.dll",
+                      "size":  11776,
+                      "sha256":  "8102f95beefb869e8b0fb495dfc9740b5bd8d58cc99689e19ca1789b6135cec0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__md5__core.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/mime/core.dll",
+                      "size":  14848,
+                      "sha256":  "f3eaf3306293471b7b50c65d3788f3b12c4753dc81387978e3bbb829ec8fda25",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__mime__core.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/core.dll",
+                      "size":  39936,
+                      "sha256":  "3f935064cbaa075786d9fa06eeac5234b7ec45620e7f299e6521b8a68c0eb2bf",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__core.dll"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/ftp.lua",
+                      "size":  9243,
+                      "sha256":  "05eae0f1477cc17a580cb88e11a62107b1b6cde37a1c76fced6f91b390d98ed5",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__ftp.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/headers.lua",
+                      "size":  3698,
+                      "sha256":  "aecff8c2d99d77a6473269367d5b085ad0db189d9699c2f47dcb97ae5ad348df",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__headers.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/http.lua",
+                      "size":  12330,
+                      "sha256":  "9bdf0c2b37f1941e4a65c31697187ee976b43d0a4a8865b96260222f85c0fdb8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__http.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/smtp.lua",
+                      "size":  8074,
+                      "sha256":  "55bdeff392dffc381b1487b6e9493a7aadb52f851f78ec29316decf50d88df58",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__smtp.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/tp.lua",
+                      "size":  3612,
+                      "sha256":  "9faacdfcde3167ab426054625ccf0ca8255a24dc7752f58543edbc93216b53b1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__tp.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/socket/url.lua",
+                      "size":  11036,
+                      "sha256":  "7290952cba25a671e0434a01b5693855cb5d19ba777adb302779b050d8b0d3c7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__socket__url.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/ssl/https.lua",
+                      "size":  4033,
+                      "sha256":  "2f941be3857648dcc97e74a992b11d14ecd145c3066eb389e327c131be79b9f8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__ssl__https.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/windows/init.lua",
+                      "size":  180,
+                      "sha256":  "4765cd7fcc4fd3b5e505e4db24ec9e56ba7b69c0a86dcd51108e3b9abc868749",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__windows__init.lua"
+                  },
+                  {
+                      "path":  "moonloader/libstd/windows/message.lua",
+                      "size":  26780,
+                      "sha256":  "25a2851e25761b5c5d9a4c8d4f3717743922250453b72887eaba3925b7240672",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__libstd__windows__message.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/lua.bat",
+                      "size":  731,
+                      "sha256":  "09102e4adf17e5023dbee829754e12e0c1720a4783c23e20e7d2e108b35e09ee",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__lua.bat"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/lua51.dll",
+                      "size":  391680,
+                      "sha256":  "bc043fe6406de6559920c00b18b0f2dc3949bfa2874087502553e7f0f91bc4fa",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__lua51.dll"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/luajit.exe",
+                      "size":  29696,
+                      "sha256":  "806051f163defe488a0e7af8f7bb3ed042044871b5184422ab1d117866af7e0b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__luajit.exe"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/bc.lua",
+                      "size":  5810,
+                      "sha256":  "09521544cd411ad7b51d1e3a3323f465f76911cc9c16c323fa052bd79a36867d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__bc.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/bcsave.lua",
+                      "size":  19005,
+                      "sha256":  "27a6203908d5c761059813bfc76a5a138ad72ddddf6a5af1d431b755f2b0fdbc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__bcsave.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_arm.lua",
+                      "size":  20033,
+                      "sha256":  "e87d31c6dc94d75397413c25b8f98238b75b0af0eb43074fff358032af9eefd7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_arm.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_arm64.lua",
+                      "size":  32120,
+                      "sha256":  "cc8115c122e6301926057271816e2159f2b6a575ecfc8910cce17ea56cc301f8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_arm64.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_arm64be.lua",
+                      "size":  631,
+                      "sha256":  "746ce5868e25544a4a5271a496417735a1f0ffaf2a12d2ad13f280071080af5d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_arm64be.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_mips.lua",
+                      "size":  14216,
+                      "sha256":  "fcd73f0cb7862917bcdb0ff021433ebb1aa522f3a83166ea140fac37ebb46574",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_mips.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_mips64.lua",
+                      "size":  723,
+                      "sha256":  "a22c66cb819f6eb9b55baeb593c7533e0afe3ffaed5dc38346cb4c29d1b09e01",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_mips64.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_mips64el.lua",
+                      "size":  734,
+                      "sha256":  "db8b88bba8f853082e1fc25a2754445f13c3eef52bc9622165e2ab832fd7d55f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_mips64el.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_mipsel.lua",
+                      "size":  732,
+                      "sha256":  "70355c86d43439ae2953f830954e6c119421c214d73b206c1cecd28402ede3af",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_mipsel.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_ppc.lua",
+                      "size":  20892,
+                      "sha256":  "2e4bd0a9336810177de13bc1362422438468e84f904e18922b56dc055cdd7c7e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_ppc.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_x64.lua",
+                      "size":  729,
+                      "sha256":  "a58221535eb1deca9362f800fc67f7c06217755af3cb093dc44c55ba9cd471e0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_x64.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dis_x86.lua",
+                      "size":  33749,
+                      "sha256":  "4a638a2b2b3ce8e815eb2ec533d04101a5737687b53b55576a7388a882e66718",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dis_x86.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/dump.lua",
+                      "size":  20824,
+                      "sha256":  "75b12c00441e5138caede01d8904a14783c7f7cd8d7b016eac3b79504322e529",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__dump.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/p.lua",
+                      "size":  9446,
+                      "sha256":  "06fe80f28debd8e84c2fc15433097a5016f05acf9ccf3921bf1b27130f25d146",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__p.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/v.lua",
+                      "size":  5953,
+                      "sha256":  "a2453df177abf0d6219150600aa4cc278bd14788f0eada0372b1133efa39e9e0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__v.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/vmdef.lua",
+                      "size":  7816,
+                      "sha256":  "e155423921adfc8ffb4dc87f9f314f061283259ad92b6025ad459642e87eb904",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__vmdef.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/bin/jit/zone.lua",
+                      "size":  1047,
+                      "sha256":  "4ec002f8e443bf18403cb4e7fc57d3ef76ab2a66593ee1b2d9550252e9375308",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__bin__jit__zone.lua"
+                  },
+                  {
+                      "path":  "moonloader/luajit/inc/lauxlib.h",
+                      "size":  6189,
+                      "sha256":  "bd8649d24bea582aa5bafeed66dc6f60d3196deca5d9ab017f5ba2f768437575",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__inc__lauxlib.h"
+                  },
+                  {
+                      "path":  "moonloader/luajit/inc/lua.h",
+                      "size":  12725,
+                      "sha256":  "2c7c6e214ec5194912bb58ec6c080e3a69e5256be0daed6b137b266e8b0d67c0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__inc__lua.h"
+                  },
+                  {
+                      "path":  "moonloader/luajit/inc/lua.hpp",
+                      "size":  144,
+                      "sha256":  "645eb3620c66b685e2fe7bebc6fc616db82d2b483340532d96339275d66256e4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__inc__lua.hpp"
+                  },
+                  {
+                      "path":  "moonloader/luajit/inc/luaconf.h",
+                      "size":  4740,
+                      "sha256":  "fb8e6296cfea053159fcb2dc7e29dbcbdb475dc2b083033366c102cac58017d6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__inc__luaconf.h"
+                  },
+                  {
+                      "path":  "moonloader/luajit/inc/luajit.h",
+                      "size":  3069,
+                      "sha256":  "226865cd34c940a8155f61a4305998799dc54c8a1861c7570a555bb3b59db212",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__inc__luajit.h"
+                  },
+                  {
+                      "path":  "moonloader/luajit/inc/lualib.h",
+                      "size":  1156,
+                      "sha256":  "b0d684a271757bcef6d7f9d9055d77c832f03ad0f7b31b34c33ea40bae7f88ee",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__inc__lualib.h"
+                  },
+                  {
+                      "path":  "moonloader/luajit/lib/lua51.lib",
+                      "size":  62002,
+                      "sha256":  "d479b4eb7ea3d93442800b2966b3d93166161dc06bdc6b58dce56559fe5e3766",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__lib__lua51.lib"
+                  },
+                  {
+                      "path":  "moonloader/luajit/lib/luajit.lib",
+                      "size":  33810,
+                      "sha256":  "f17b521db0bc720d0398f2886b538148441f0c33cc8fc360ebb7f26d9f2a382b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luajit__lib__luajit.lib"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/config-5.1.lua",
+                      "size":  667,
+                      "sha256":  "4db82c7d50a58bf604f8bab03f9f9bf64ef1f4de76b9fbc23c95052422348294",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__config-5.1.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/luarocks-admin.bat",
+                      "size":  1665,
+                      "sha256":  "f28ed1e4ffe13b05ffbeb77e32829e8a9dd7b102bf042e8bd98249ac697255ee",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__luarocks-admin.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/luarocks-admin.lua",
+                      "size":  620,
+                      "sha256":  "6e4c123637f06f92a889301cac88b4e2c1c75957ac7bdb104fbd2d4a0078e9c5",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__luarocks-admin.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/luarocks.bat",
+                      "size":  1659,
+                      "sha256":  "25f68310d4f8f7e27ee3dfef6246304576c7571aefa8dcd786310ae7ecc70b76",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__luarocks.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/luarocks.lua",
+                      "size":  1155,
+                      "sha256":  "7f2f6a48db45d27592bc1a40e1b5cfa3fc16c26f87afb861633ace10f308f393",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__luarocks.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/luarocksw.bat",
+                      "size":  1375,
+                      "sha256":  "ee490caa8c165ea60ef4158a1b98bbf172782ed8547a0d6dbc69bff723b51f86",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__luarocksw.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/build.lua",
+                      "size":  15083,
+                      "sha256":  "2a232af714b96fbcc70e4ac87f3157f150257cd18198ebc4fb8a2daff7d8e24f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__build.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd.lua",
+                      "size":  14873,
+                      "sha256":  "ad1e5a5a64d92311f4096a671c95e36a9333cb3f6429ce1c806162474fb0fa1a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/deps.lua",
+                      "size":  22419,
+                      "sha256":  "ee07c0bb246bda21497e8287d621c41c30b93755ad1a538e0e4e1258af713e31",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__deps.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/dir.lua",
+                      "size":  2081,
+                      "sha256":  "d8106641d076515a15fa6c6be04e37027e84a300b98ec13bc0d9404ddb33216d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__dir.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/download.lua",
+                      "size":  1956,
+                      "sha256":  "5308092a45882b478290d561bfe51d704c9648e04e5f932d782a079bd8b4eebd",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__download.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch.lua",
+                      "size":  15388,
+                      "sha256":  "7fd0c17076b271fa4e7ddce8a40fc78f6c579eb86cd7616b7dd0e8004ec7fea3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs.lua",
+                      "size":  2775,
+                      "sha256":  "bd5c1c5c90a7a5b863ac3fcc45a7b1b3b9d065611aa0cd8979a13aa2028a2628",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fun.lua",
+                      "size":  2835,
+                      "sha256":  "62b4af62d26137414c56139d153434b7204dae17f10a55a49c0e2951205b07f9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fun.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/loader.lua",
+                      "size":  10751,
+                      "sha256":  "bb05cbaafc1b5aed571b1ce873fecb4e2723ae9ea7c66754796c7287ca8ff997",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__loader.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/manif.lua",
+                      "size":  10737,
+                      "sha256":  "4dc50f33d7170e002a8852875fcc838b6a16f9422d520b01155fe84447aa2731",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__manif.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/pack.lua",
+                      "size":  6284,
+                      "sha256":  "20bad441c1f8b2bc71b38e5d5268548fdf630997e925eb457cb05c43594da1a1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__pack.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/path.lua",
+                      "size":  12195,
+                      "sha256":  "f9030d003f17b77bc1bb2aad099015ca8c28b01f295747400083131fafccecc8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__path.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/persist.lua",
+                      "size":  8147,
+                      "sha256":  "34739e7e5f95b1d3ad4879efebe39ce152dcbdd58ee01b2bac3884b79599f718",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__persist.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/queries.lua",
+                      "size":  7159,
+                      "sha256":  "e78824c28bd3a9015621c58e9f050592f636430ae751716858cf8eb8da552353",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__queries.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/remove.lua",
+                      "size":  4483,
+                      "sha256":  "865ad4f450d8c48ad7a2fef48378b43df1b0e554483f09f0baa5e7d75ba7efc0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__remove.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/repos.lua",
+                      "size":  20686,
+                      "sha256":  "35c5d81af1e03cdb64a8593829ac9ea82137f2e2664e8abb4260caf11fe3a5b4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__repos.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/require.lua",
+                      "size":  110,
+                      "sha256":  "afebcec4f449bdac03d5f19a1332fa587c91aab38b5e6b10dcdad07f4199b887",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__require.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/results.lua",
+                      "size":  1786,
+                      "sha256":  "f3ba9510e2ab0ed8ce5e19a413c97db1414e159361f77272d1e342171709886b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__results.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/rockspecs.lua",
+                      "size":  6073,
+                      "sha256":  "dc677a7cbcabc6b111a165db01b7d8422bb0460523209c1d376987ac2e3d2d9a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__rockspecs.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/search.lua",
+                      "size":  14325,
+                      "sha256":  "b6c06cb6ffc12c938a122b09e10c20d00605fb26d32a86f2239ea14e1ee89b87",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__search.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/signing.lua",
+                      "size":  1042,
+                      "sha256":  "b404242da0e6d41f00118feb9911f27cbdcf93ae45e65d61483399b960a230e2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__signing.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/test.lua",
+                      "size":  1931,
+                      "sha256":  "96962e1839671a11c009bf6ad5acf68defc93e8a3c3250f564d0a2c0eea35902",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__test.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/type_check.lua",
+                      "size":  7780,
+                      "sha256":  "312cbc145bb3fdb6598a0594a5fdccc6ed92c42db7dd265815fe946a96743127",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__type_check.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/util.lua",
+                      "size":  23657,
+                      "sha256":  "04a343c6bbb0671391fc880d9ede1f978850c6f276817c56e707685cdacef959",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__util.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/admin/cache.lua",
+                      "size":  3200,
+                      "sha256":  "74584263d679a8f42861fbaa210557d0e789f1ec44b8eae64727676fdb6defb9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__admin__cache.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/admin/index.lua",
+                      "size":  5641,
+                      "sha256":  "4c3b02017a742b87f6794cb6ee79a3543c600d06d0f6eca6e7ffc25f0b95d1f4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__admin__index.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/admin/cmd/add.lua",
+                      "size":  4732,
+                      "sha256":  "f81f822cba0896370bdff5bc9c7e67f679ff6266133f2bed798a69d02e7edca8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__admin__cmd__add.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/admin/cmd/make_manifest.lua",
+                      "size":  1848,
+                      "sha256":  "1fa996da503864f607eb56858cf6f0a262ae2884c26543408de03ac1dd3ab26d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__admin__cmd__make_manifest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/admin/cmd/refresh_cache.lua",
+                      "size":  962,
+                      "sha256":  "d6ec3420af178a71e3f1b0fef4e9a23989ced890c741d479ba4a54862b76fe48",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__admin__cmd__refresh_cache.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/admin/cmd/remove.lua",
+                      "size":  3284,
+                      "sha256":  "f850b9d37f500fa65ac105feb6a6ed9d0194ad164d573948768889f581d98612",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__admin__cmd__remove.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/build/builtin.lua",
+                      "size":  14126,
+                      "sha256":  "a553307e49e3aec93965967280d051abfb41e899eae1567bdbe20e6816298951",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__build__builtin.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/build/cmake.lua",
+                      "size":  2635,
+                      "sha256":  "522d93473ec653dc88d5eee4bd81834b70c13df50b7a4f6370151a1cfea981f1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__build__cmake.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/build/command.lua",
+                      "size":  1156,
+                      "sha256":  "108d60196bb9bc1b25a7f32a003697912b2c3e46e09b8e2468dab8b94d49a0bf",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__build__command.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/build/make.lua",
+                      "size":  3523,
+                      "sha256":  "4ab86ca9747fc632595451a1fb850f1cd8818cad6226144b98610b7a52a468cb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__build__make.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/build.lua",
+                      "size":  7189,
+                      "sha256":  "031f3027cc470df1634dd3d1f68f11a9dbca7aac2eaf662e8d2eac24d2bb9fb7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__build.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/config.lua",
+                      "size":  9600,
+                      "sha256":  "e47202f05c777a66a27a3c25cb5022828a53ed11e83040c358abacf78d64b529",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__config.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/doc.lua",
+                      "size":  5263,
+                      "sha256":  "643d88866462ef9db4d5df61d520d67dacb84c3f13a00664ee7b95591b415a29",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__doc.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/download.lua",
+                      "size":  1618,
+                      "sha256":  "3d6a88d23082b31ef7787be13e899248a40a108fc5455d80718d2c18ec5e6fb9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__download.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/help.lua",
+                      "size":  5520,
+                      "sha256":  "75e27cc5c94b946a87f56f457116585541bfa1cd0d59f0bb80c9927002ab433a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__help.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/init.lua",
+                      "size":  6020,
+                      "sha256":  "5da131e9be09be2012a73592f44d710d6ea36ba1c27bc084dd27cee80a79c6c9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__init.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/install.lua",
+                      "size":  9486,
+                      "sha256":  "1270a99d6d2c9c7e086bfb739bb326eca29e40a46e55b3a3241c3972523bdae3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__install.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/lint.lua",
+                      "size":  1513,
+                      "sha256":  "a6482648c6c0900bcf5bf2d11c9726f4350220d423846baf9ee4948753c4b2e3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__lint.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/list.lua",
+                      "size":  3453,
+                      "sha256":  "0eec7b25f2bfa0b3fb307a1ad09536c3d1f20d026fae473fe3e39808fa6d0a94",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__list.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/make.lua",
+                      "size":  5133,
+                      "sha256":  "f6c09d893d2a5ecc9849eb3d87eab5d0c3dce30d891b2c3f5ffaf0b983ec7b61",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__make.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/new_version.lua",
+                      "size":  6436,
+                      "sha256":  "c7da77930e4258d4f36e4355c5d4a7c58643e4ced35813e8020997c4331b1439",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__new_version.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/pack.lua",
+                      "size":  1695,
+                      "sha256":  "27b9fa8845aaf4430fa1727c559b8da0c9a32308a054f4ae7a7b3e5beb8e0a8e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__pack.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/path.lua",
+                      "size":  2446,
+                      "sha256":  "ddded476261a877c94a1eabb6ac1b0fbada5b37ee712ae054c9e33e45f5d3e0a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__path.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/purge.lua",
+                      "size":  2656,
+                      "sha256":  "7ed221c1550c45673d2bf398e4e01f37f78c978aa1f90c87774fbe2a0bd49734",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__purge.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/remove.lua",
+                      "size":  2709,
+                      "sha256":  "85c9b3ca47be6662de5e7148b38a6c0a36073f7d35a09bb7fa7cadb601c078b1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__remove.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/search.lua",
+                      "size":  3230,
+                      "sha256":  "ebefa2bab62e847fc3167a8b7e44826390e9e9bfb757bc0d043ee96a6a7c6037",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__search.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/show.lua",
+                      "size":  10772,
+                      "sha256":  "25f4729e9b46403cfd922f0c311c418800003141d390717acf14e365f04e3299",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__show.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/test.lua",
+                      "size":  1548,
+                      "sha256":  "cd27e84b1d86e358878fc12b3d9bb92e82f44454b77585a58f48af10e10ac695",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__test.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/unpack.lua",
+                      "size":  6313,
+                      "sha256":  "42bdc3c3c6917cb716db79beb1c15502386ee7aa20b5cb00550a9d8bf73881aa",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__unpack.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/upload.lua",
+                      "size":  4098,
+                      "sha256":  "5ccbb75ac5528ce7bd98817d723c6e2ce0d51bd8357226e74c42768801730cea",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__upload.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/which.lua",
+                      "size":  1040,
+                      "sha256":  "69f5a0f49ed2f80b09d6966561c49914adf9fde7e7cac59f15ecba1abb92bc40",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__which.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/cmd/write_rockspec.lua",
+                      "size":  12609,
+                      "sha256":  "a5c286c366a69da62f231807035cf54ba54a95d04457348dfd7ce3891ea1146f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__cmd__write_rockspec.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/cfg.lua",
+                      "size":  28804,
+                      "sha256":  "1a7a133a1c82a5b24e1976bb25777ed60107242f3f1b4a9ce210f799ea51be80",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__cfg.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/dir.lua",
+                      "size":  1328,
+                      "sha256":  "e6e7991f4b962ea4ed80d3a5a80b828a7b269327f414a80d76ec6547bb1e2ab0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__dir.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/manif.lua",
+                      "size":  2826,
+                      "sha256":  "9c8d2000b89093241d50325fc19b3be9ab28614c62ab80fea40a032e05919e2a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__manif.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/path.lua",
+                      "size":  4105,
+                      "sha256":  "e2a3c1e5eacda6bf29fa4bc82332281b87bc1fd493ab8b6cbb7d2c9c8033c77c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__path.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/persist.lua",
+                      "size":  2448,
+                      "sha256":  "64b01b74c7d986b8fca02b2072715789158792e9168afa4eeebeb8c074428109",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__persist.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/sysdetect.lua",
+                      "size":  11356,
+                      "sha256":  "28cd65a5678aa11f7acb14b6b427100985bd5e40f9cac04f85587d23b0102380",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__sysdetect.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/util.lua",
+                      "size":  9864,
+                      "sha256":  "eeccc2e087c20f37603e1a0fa8d841c928380da7661cf8e471c983ee3e808305",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__util.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/core/vers.lua",
+                      "size":  6899,
+                      "sha256":  "a8ef168640598a048ab3cab754bc0ee77c4df5902b12fece5ae8154800d514c1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__core__vers.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/cvs.lua",
+                      "size":  1891,
+                      "sha256":  "0a9335946084ca0ed67fab81327073a985ed8a19c72575a05c72eac9d6fde501",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__cvs.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/git.lua",
+                      "size":  5765,
+                      "sha256":  "2c29dffd9de9303e2e5135f461c784ff5262ad0f1aba3a3c0ee76a21e863feb6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__git.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/git_file.lua",
+                      "size":  811,
+                      "sha256":  "e747d9e3a06e01a423d2bf1dccceb63822f050985dd4881b775026bc00fd1f9f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__git_file.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/git_http.lua",
+                      "size":  1169,
+                      "sha256":  "e475372bb5babb8665c22e7f4bac87301928a3e80b30aa351037dbdd44cbaeec",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__git_http.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/git_https.lua",
+                      "size":  364,
+                      "sha256":  "78c46a4450076268135463db7c0f49b11f9b98560a6bd253892139f34c1257ba",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__git_https.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/git_ssh.lua",
+                      "size":  1414,
+                      "sha256":  "e2f7190765f7116681acbe4c8e1d72fb8115f54d641888385b252ec3996f846e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__git_ssh.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/hg.lua",
+                      "size":  2167,
+                      "sha256":  "3cc680e2914c64a1a6a57ca327dec3c167b93a2967e33affec70889fc359d88b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__hg.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/hg_http.lua",
+                      "size":  1028,
+                      "sha256":  "448db6a434d3349900f15fc77334ef02581804bc8a41cb2023699020ba1e7b7f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__hg_http.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/hg_https.lua",
+                      "size":  354,
+                      "sha256":  "00061cbf8ae9fd1c2c62fe6bb7de4ffe388396e05b28a7ccbd43e6e907ffe4fb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__hg_https.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/hg_ssh.lua",
+                      "size":  348,
+                      "sha256":  "d559775d59f9a02d06ce5f8af8d38458c517dec7989b56fa5c21124a2f6dc1dc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__hg_ssh.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/sscm.lua",
+                      "size":  1888,
+                      "sha256":  "7ae894b3b9d93fd7e98fde7db39e6ec6f92add539ddf17a743740a1870928345",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__sscm.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fetch/svn.lua",
+                      "size":  2208,
+                      "sha256":  "96395644a3b3cc869c0e5a89d308c57054785ccd001762b9aac64bfbbb5f6096",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fetch__svn.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs/lua.lua",
+                      "size":  38004,
+                      "sha256":  "db02e6b67ef72872fed751bdac29af69fe08f0ab91b5ab64dc0a6006034dddd8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs__lua.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs/tools.lua",
+                      "size":  7061,
+                      "sha256":  "6c4794acdd8fa18b74abc9f88ef3e4e345bc7ac3f9761fc0b3c9dbe38fa7fb09",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs__tools.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs/unix.lua",
+                      "size":  7730,
+                      "sha256":  "eccdcd1aae7216953a55e7997270e80efd388f395c2ca949de892ad4980c3cd2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs__unix.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs/win32.lua",
+                      "size":  10846,
+                      "sha256":  "344c4eb492b37afe3e363b57bb00c01805522590a0399e3ac901fcb62bcd941f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs__win32.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs/unix/tools.lua",
+                      "size":  9723,
+                      "sha256":  "0748471f1aa18f7f8ed7e7716f0f74f648c0980e860d3a1d9a7bc0b8d799759b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs__unix__tools.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/fs/win32/tools.lua",
+                      "size":  10848,
+                      "sha256":  "0639fb05bee721a732f79f05ced6d9ea3c42d37601947846c757609d0e38ce2b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__fs__win32__tools.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/manif/writer.lua",
+                      "size":  18240,
+                      "sha256":  "f76198e1a5ee2c0be941e12ef4323e16aa93c93189534e2747653fdd923120bb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__manif__writer.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/test/busted.lua",
+                      "size":  1441,
+                      "sha256":  "2e5ffec14c86d55d5a68966bf162295d6bf9c6dabd2ae67c68dd6805bc8a9d75",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__test__busted.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/test/command.lua",
+                      "size":  1169,
+                      "sha256":  "b2196e6324e5aaa5aa4c9672b2a377d0b9d114c5e3cc9c2539cee20f47dd84f3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__test__command.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/tools/patch.lua",
+                      "size":  22636,
+                      "sha256":  "312669b415a3b561e640152ae4658d9bac892a185de7a2d262368c07ea686aed",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__tools__patch.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/tools/tar.lua",
+                      "size":  5602,
+                      "sha256":  "99e7a8b9d3b2abfca685eaab48f82051a23ba239c8f5fdd41908b51305af2974",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__tools__tar.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/tools/zip.lua",
+                      "size":  17344,
+                      "sha256":  "db5a97aef99d88f81338a6625735550c037ffd219244478feca98143e6eaad3e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__tools__zip.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/type/manifest.lua",
+                      "size":  2432,
+                      "sha256":  "ed930a083bfb715d4df0ab2229eaf78cf5ec16f486ed23d63aa4d68acfc7ea59",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__type__manifest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/type/rockspec.lua",
+                      "size":  6593,
+                      "sha256":  "018f19d5c96b2cffee2d1e0ef20a59601a021f3f9ecec38b29d36591a1e3f9b9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__type__rockspec.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/upload/api.lua",
+                      "size":  8328,
+                      "sha256":  "cfb8655ee22d7e42fed8f520e85e8128fdd948ad35c1ea5c3fe4915ece5ba098",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__upload__api.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/lua/luarocks/upload/multipart.lua",
+                      "size":  2881,
+                      "sha256":  "7b3363dc96858af5dbd74c65b82c4e8f29a4b7a35425868852ad91950760084d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__lua__luarocks__upload__multipart.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/manifest",
+                      "size":  5411,
+                      "sha256":  "37342b0cbc9448884b5af9e9ffb0861ea9fea06e009d72c182dd70d232c9acdb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/luafilesystem-1.7.0-2.rockspec",
+                      "size":  703,
+                      "sha256":  "0667691981eb354bd3a7d08d9a7d8cb79607c966324b305479a1cfb5907d3b76",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__luafilesystem-1.7.0-2.rockspec"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/rock_manifest",
+                      "size":  680,
+                      "sha256":  "aea0c83508fb33105b1d95ce8fb332dc75352ecaa7fbc8813f4afe6cef5deb5b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__rock_manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/doc/us/doc.css",
+                      "size":  3275,
+                      "sha256":  "e48570ced302332d3cc2db76200c2acebb23a1276e2e42538acc3c7d42847e0f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__doc__us__doc.css"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/doc/us/examples.html",
+                      "size":  2927,
+                      "sha256":  "f6907015da8a5336dfb65846716b36ddf79c8779541456a2b94d68917af8fed8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__doc__us__examples.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/doc/us/index.html",
+                      "size":  7180,
+                      "sha256":  "0031172969eb3c48c88ac23bca25c499d0dd198c9883e2350b82f42764e633d4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__doc__us__index.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/doc/us/license.html",
+                      "size":  4344,
+                      "sha256":  "57fa1767938c020d3a628c2051006f4e26698fabff7f80f9f9fb01abb0f011e5",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__doc__us__license.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/doc/us/luafilesystem.png",
+                      "size":  8535,
+                      "sha256":  "732b275024819c780fbbc58750ed831d64e3738ceae51d57a9ff27edd9b54aac",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__doc__us__luafilesystem.png"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/doc/us/manual.html",
+                      "size":  12806,
+                      "sha256":  "95eaef6a70c030113cb241324163fa245408aa9f4c10621905b43719f8533033",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__doc__us__manual.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luafilesystem/1.7.0-2/tests/test.lua",
+                      "size":  6303,
+                      "sha256":  "a62e1b0c491fd16704925a5d30fa166781f12544fa37b389901e03b68f3c60b3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luafilesystem__1.7.0-2__tests__test.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/luasec-0.7-1.rockspec",
+                      "size":  3171,
+                      "sha256":  "b71f037600e06f3c9c94106418cf2f4d4c8ea43b71c79697104400bc68e8e804",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__luasec-0.7-1.rockspec"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/rock_manifest",
+                      "size":  4749,
+                      "sha256":  "86ecdc262309e33dc6210709b3d78758c51d7fde604e3ad28d85f1e2d09a34dd",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__rock_manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/README",
+                      "size":  913,
+                      "sha256":  "0fe211c7e48be3988abbaae5856924a5d24fbb4331b0e19afef4063e60e92476",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__README"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/all.bat",
+                      "size":  303,
+                      "sha256":  "67aeaaf9dc062c68d5956499a3aa59bab8e3de8f4df0dc1212fdb1aa9e85e994",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__all.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/clientA.bat",
+                      "size":  408,
+                      "sha256":  "26646c9b4a2311719e6e73603ac4e643dd777cfe5126e7d453e51b8e9493979d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__clientA.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/clientA.cnf",
+                      "size":  9519,
+                      "sha256":  "137a3052f5c5a17d0eca89de27eb2b7666e5e95d0a1f63718ce84b1c970632fe",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__clientA.cnf"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/clientA.sh",
+                      "size":  415,
+                      "sha256":  "bf0091843c78a4cd23c893d73525e6f46d2058d766a1b0f7a0875d132b9035ea",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__clientA.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/clientB.bat",
+                      "size":  408,
+                      "sha256":  "b8d3ea56425c22f1af1688693dc5ec09b8c53252b6f7f7246279d03c9ea39703",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__clientB.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/clientB.cnf",
+                      "size":  9519,
+                      "sha256":  "970c69abf2633cf4644212ee2e0781eea89f7deb61e4a5969a4b11d0865d256b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__clientB.cnf"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/clientB.sh",
+                      "size":  415,
+                      "sha256":  "2240f4490845a4e62e988a4cf89a67d9fa148db5be8b2f0f5c7a5663de2fb169",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__clientB.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/rootA.bat",
+                      "size":  313,
+                      "sha256":  "22692c266f914455cf454939a2784c4117e27728d5ac5cc8427825bdb0605ce4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__rootA.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/rootA.cnf",
+                      "size":  9478,
+                      "sha256":  "a265bbb27e36ba447e64d5e234e5a13c4da848b09c464fe22120b678708fb013",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__rootA.cnf"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/rootA.sh",
+                      "size":  309,
+                      "sha256":  "559f79396d1c48f131c1ef89f2b2b3968cd3f9dec73629c79d4cff6d4b39207b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__rootA.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/rootB.bat",
+                      "size":  313,
+                      "sha256":  "da5dc0ee462c8e486ed366d6312c78ca850ba4bdf73c59654dcc74ebecc1d7c9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__rootB.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/rootB.cnf",
+                      "size":  9476,
+                      "sha256":  "1b702ae7351cfc71489cb7e0565f1fe7a908afeefc6f1d2ec05e26275cb6fb22",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__rootB.cnf"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/rootB.sh",
+                      "size":  309,
+                      "sha256":  "8d71aa7b551c76780ac40171b30511d06ead2640458105e4316e28128b42b00e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__rootB.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/serverA.bat",
+                      "size":  402,
+                      "sha256":  "f2d3981bda5c00022009d4054ae4582694ca11f0383ce2c34d896d82bf08c934",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__serverA.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/serverA.cnf",
+                      "size":  9517,
+                      "sha256":  "337bfd1168b2bdea0810870639bd24ed0ea1aa98ed006d6d0c8f1100623894dc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__serverA.cnf"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/serverA.sh",
+                      "size":  412,
+                      "sha256":  "5a39139ff005c1bfbbf0d826cbc186454c540b66f5b5e3924f8226b60d19dce6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__serverA.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/serverB.bat",
+                      "size":  402,
+                      "sha256":  "0499e1e615ffb3d40de234b5f27e921b70ad878eb0d44b18fdcc88a9df25ce8d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__serverB.bat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/serverB.cnf",
+                      "size":  9517,
+                      "sha256":  "96da51b484852a9b8319de18baca2dcc5adf17a4a1708347886590bca6ffeb03",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__serverB.cnf"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/certs/serverB.sh",
+                      "size":  412,
+                      "sha256":  "1f6f607d46b52e311b077a0113d72b6f81aeeead49481aaf31ac93a688cd40d9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__certs__serverB.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/chain/client.lua",
+                      "size":  767,
+                      "sha256":  "bb71f0947b58f4fd9765c19d74935689f2a83ba0c2e0cd39c21e6547c026ef8f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__chain__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/chain/server.lua",
+                      "size":  1200,
+                      "sha256":  "5bace55811c77088a2d0c5e88525ef056eeaa09f9b7570bb94b4369dc1c9890f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__chain__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/chain/util.lua",
+                      "size":  518,
+                      "sha256":  "c736a1e93f191aacc20d097104512a1c48f2485b0eb52fdaac99619e4731d499",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__chain__util.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/curve-negotiation/client.lua",
+                      "size":  548,
+                      "sha256":  "54e90c389feed6c7fea4e8e90b4d6c7620d6aad4eae1e56b379e7738ab42476b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__curve-negotiation__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/curve-negotiation/server.lua",
+                      "size":  739,
+                      "sha256":  "89b756d9fb3437ee8f64edaf2f11fe6e4eaa9394ab3a328cfe49db22e8399ed1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__curve-negotiation__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/dhparam/client.lua",
+                      "size":  518,
+                      "sha256":  "088f4b06f95ef661cca98b5a3bae1cc1b639b36edfecb6634b6b038314ff6629",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__dhparam__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/dhparam/params.sh",
+                      "size":  118,
+                      "sha256":  "914475aa61a74f325c39a43a65357ed832b4de1fbc619932f1fc798adf2614d6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__dhparam__params.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/dhparam/server.lua",
+                      "size":  1196,
+                      "sha256":  "aa4f3d5f5547123abc78809a5172fa179299dccbdcfda0f8bbf4a379eb12383f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__dhparam__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/digest/client.lua",
+                      "size":  518,
+                      "sha256":  "088f4b06f95ef661cca98b5a3bae1cc1b639b36edfecb6634b6b038314ff6629",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__digest__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/digest/server.lua",
+                      "size":  896,
+                      "sha256":  "843c143ac41eadc0a6bc5a3b27adfda5718bba39cc3a9f002b442032bceaa6b4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__digest__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/ecdh/client.lua",
+                      "size":  687,
+                      "sha256":  "f6e91ef8463ef70dcd373f4d9bd2d79b51d6ec26ef2238f494575e9059e50770",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__ecdh__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/ecdh/server.lua",
+                      "size":  831,
+                      "sha256":  "b77e902d733263cfd37c601facf28d9c20b281c88e84beb7df7305a171000a95",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__ecdh__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/info/client.lua",
+                      "size":  518,
+                      "sha256":  "088f4b06f95ef661cca98b5a3bae1cc1b639b36edfecb6634b6b038314ff6629",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__info__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/info/server.lua",
+                      "size":  872,
+                      "sha256":  "fb3a5cd56044e64c4327a4f3788373bd8502657b88bb3f65baf92cedd74ff773",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__info__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/key/genkey.sh",
+                      "size":  71,
+                      "sha256":  "7408c25fa3e23ec4e9647af1b14db82ab5c1f330d28205a1bbee89922c94defd",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__key__genkey.sh"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/key/loadkey.lua",
+                      "size":  516,
+                      "sha256":  "10da93bfb2a61a3913aa9f3cd18ced50c74a5876bc89fd2a1d87d3d3913c9137",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__key__loadkey.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/loop/client.lua",
+                      "size":  572,
+                      "sha256":  "00110003dd49ba4fafce487eae443d70273224b766806c16317fd05f0fc0a82a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__loop__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/loop/server.lua",
+                      "size":  715,
+                      "sha256":  "96d1b6ed8146882442499e1cce6b2481d1894fe74e5162864566f0066ae11c3a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__loop__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/loop-gc/client.lua",
+                      "size":  556,
+                      "sha256":  "c562f7817ed68a094a33ad3ad1840b30a203eefeb90dc12964e4349d449ae342",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__loop-gc__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/loop-gc/server.lua",
+                      "size":  699,
+                      "sha256":  "e34119e15ac410afa14ab43dd467e5f2603b0f02af820154198a6a6fc0c73c9f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__loop-gc__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/luaossl/client.lua",
+                      "size":  1003,
+                      "sha256":  "b42cec2356941ed61504267802c5c651e16574f90b91105c17337175f81342ca",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__luaossl__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/luaossl/server.lua",
+                      "size":  1296,
+                      "sha256":  "55bb3097e65e443ce7db046f3407d72597d18c6a6afbaa7d665797d151079b20",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__luaossl__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/oneshot/client.lua",
+                      "size":  518,
+                      "sha256":  "088f4b06f95ef661cca98b5a3bae1cc1b639b36edfecb6634b6b038314ff6629",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__oneshot__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/oneshot/server.lua",
+                      "size":  676,
+                      "sha256":  "9056f04ae00a1920b611529efa66f7e44d905fd5a4c7a22411df56d9eeb0de67",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__oneshot__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/sni/client.lua",
+                      "size":  704,
+                      "sha256":  "889451b732397bb2e22b51695d56c33024d833f8fb397e6f5385fd06c6fb26f6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__sni__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/sni/server.lua",
+                      "size":  1063,
+                      "sha256":  "142059d071b60e03975eb9dcd161d011f2f81e24e954c12c45094559fd290e03",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__sni__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verification/fail-string/client.lua",
+                      "size":  560,
+                      "sha256":  "1f7bff29df7e93c2c4e777d78cc8b0ed72cf448554b0df74d3f5c2abd9fa6cd3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verification__fail-string__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verification/fail-string/server.lua",
+                      "size":  721,
+                      "sha256":  "3e8ded0d0b002b7476178fd2ab8cc22249300e9ee11fab0f34a11b75d3b43aac",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verification__fail-string__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verification/fail-table/client.lua",
+                      "size":  802,
+                      "sha256":  "c6ac27b04b6e246f859ba3e20d24f0d364ff0deadfc1a27a50f536f827f20a1d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verification__fail-table__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verification/fail-table/server.lua",
+                      "size":  933,
+                      "sha256":  "f9e59b68cc5196889a9528003717c23cabd1ba28061631b871116302cdf0a44f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verification__fail-table__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verification/success/client.lua",
+                      "size":  586,
+                      "sha256":  "b177aa9b2d2e0ff58564808ae478ea6715a26d76a78e8e7bd06eeb251ab5947f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verification__success__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verification/success/server.lua",
+                      "size":  748,
+                      "sha256":  "ae4bed7a88b31942230e9e087f59a39e31d2fcc39558c769c65e704327e3ee5f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verification__success__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verify/client.lua",
+                      "size":  774,
+                      "sha256":  "16ba6fc6939df988020da9835f7996f410dd4c885cf3d281b0e905e9eec43269",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verify__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/verify/server.lua",
+                      "size":  868,
+                      "sha256":  "a9c35721b077a9aa10d6c8b32d71ec156f3bd3ce0445915e55afe1481f95c438",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__verify__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/want/client.lua",
+                      "size":  1422,
+                      "sha256":  "bf656de4d4687e0887c6c1cae48f12c7409a689406af963eda2bed014825e777",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__want__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/want/server.lua",
+                      "size":  898,
+                      "sha256":  "cf62a9a61dae592088f3ece09f5c02dc09b63d7c5397073e89c6aeb2de4b6ba2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__want__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/wantread/client.lua",
+                      "size":  1162,
+                      "sha256":  "ba2dd2aa09689babee08d249a471b5c0577d8e5a41c293124bf016dd054dc29f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__wantread__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/wantread/server.lua",
+                      "size":  936,
+                      "sha256":  "50450903e3e7c8d5a137160f60768135bd172e1b807d0e30270a98cf1b1ad968",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__wantread__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/wantwrite/client.lua",
+                      "size":  995,
+                      "sha256":  "dce33466361a561525a34dcb5db78d2a01515edd4bfdf5a260bd415fd7d43723",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__wantwrite__client.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasec/0.7-1/samples/wantwrite/server.lua",
+                      "size":  786,
+                      "sha256":  "68f6a53c8868bd8852d4cbf1a1e57d3463144107f5815b87400d3cba686be799",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasec__0.7-1__samples__wantwrite__server.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/luasocket-3.0rc1-2.rockspec",
+                      "size":  3664,
+                      "sha256":  "4c1027e80a57d2f5c8a354c40b5771f70c099f6de8f7c779d9d77f72619ccb9d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__luasocket-3.0rc1-2.rockspec"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/rock_manifest",
+                      "size":  6034,
+                      "sha256":  "20a7677e1aeafeea3aa4d834e3e96186d975cb26eb33c3c7a1971e9a15ebaef3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__rock_manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/dns.html",
+                      "size":  4710,
+                      "sha256":  "6f1d4dfb356d3c1bbcd4cf1788cde4e3f09a4d3fe16bd34f23a8816b73c36e31",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__dns.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/ftp.html",
+                      "size":  9565,
+                      "sha256":  "a8572944efb1cd91c0c2bf16f21e641cc4412f6c1616647bb720bd07e2823573",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__ftp.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/http.html",
+                      "size":  11449,
+                      "sha256":  "d01d055a86107470e93dbd111f94a8d95860afe7df7fb77c9dd108efa4618761",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__http.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/index.html",
+                      "size":  7569,
+                      "sha256":  "711934cebb80371869375b030629963435786af57b67297f03d9a159643b1aa2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__index.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/installation.html",
+                      "size":  3883,
+                      "sha256":  "ec29bb4a22ea7bf1af6ba496b3ca0cba45c4fc0bad3cf43b143f2de79144ac66",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__installation.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/introduction.html",
+                      "size":  12433,
+                      "sha256":  "b900cd1fe039e4cfea020ff20692ec03af933b4a05bc50450b06c021390dbdf3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__introduction.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/ltn12.html",
+                      "size":  10936,
+                      "sha256":  "cbe1d8343691a4f8492753a4ac9b6b47953a10460d6890c0a64aa6621f36c447",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__ltn12.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/lua05.ppt",
+                      "size":  304128,
+                      "sha256":  "40f215e19aae66edf7b8968fc2993a71668bf5b25b868b8bbfadf17c2e436ae6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__lua05.ppt"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/luasocket.png",
+                      "size":  11732,
+                      "sha256":  "43f1a7e7247dc9e2b603343c57ef035011e5f26c3e2f51463e4100df70e344f2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__luasocket.png"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/mime.html",
+                      "size":  14160,
+                      "sha256":  "6abd206284e5e822a4badccec45d091f67e79fbc51e19dfd9f625e2a1b9940d6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__mime.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/reference.css",
+                      "size":  950,
+                      "sha256":  "5eb02ce03ad22af18105b57cdd5d1cb3b2929029aee3190bd110a4db92787f00",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__reference.css"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/reference.html",
+                      "size":  7583,
+                      "sha256":  "8bb62edfe7e756078a38adececcf745153a74425355585ef5fee79eb6f2e280b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__reference.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/smtp.html",
+                      "size":  14503,
+                      "sha256":  "8088c9f331b7bbed36b583e80ff1f5f09ec0cb68d5faaf3d67269adb79dcf129",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__smtp.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/socket.html",
+                      "size":  13866,
+                      "sha256":  "c1db42381acf960bb46d101945eeb047f38ee10b905b55580f635b808db77a5d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__socket.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/tcp.html",
+                      "size":  21458,
+                      "sha256":  "09e5eb2e0ba4d79068e88bd22803cf820021c5e1d01f9f92b8a8ef62139de4a9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__tcp.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/udp.html",
+                      "size":  16921,
+                      "sha256":  "4ca93c1d1ec25d1cdf5f72db0cb22e9f0100ff190bfa6cc99690116e3798a57c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__udp.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/doc/url.html",
+                      "size":  8430,
+                      "sha256":  "d7641b5525b8c71a913784cc5a42437ad10d1478f48a941e7edcfd422934739e",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__doc__url.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/b64.lua",
+                      "size":  671,
+                      "sha256":  "94f4f0c0351afd4407c63eebfd9aecd8f34497a5d5a1753706c339974f19dfe7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__b64.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/check-links.lua",
+                      "size":  3363,
+                      "sha256":  "188f7d8f5d30cb2fc7e4ccc8948e278d702b2ce8697b18b212cb2d0ae99e6e4a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__check-links.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/check-memory.lua",
+                      "size":  310,
+                      "sha256":  "6c51d5497d1664acb40e71c6bbc211bca3f901900b3fb82eee826dd6f69926e5",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__check-memory.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/cookie.lua",
+                      "size":  2586,
+                      "sha256":  "07466e67eb3768986f3513d929fb9489c3c5ffdf36340c0a03dd8741758d0cf0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__cookie.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/dict.lua",
+                      "size":  4666,
+                      "sha256":  "501c27b43cd825134287383a3fdc62a70fac538238d948a2c7cfef22b937299b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__dict.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/dispatch.lua",
+                      "size":  10215,
+                      "sha256":  "2599e7c23d9b621758850c057bab29b495849e8800a549cda49786cbe0b9e29a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__dispatch.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/eol.lua",
+                      "size":  563,
+                      "sha256":  "d924fb92b72a2bd9d022204e55eeaabeb47465cc372415bb68138b18a96a6381",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__eol.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/forward.lua",
+                      "size":  2066,
+                      "sha256":  "15fc3afefce885b16c3680ea59061facafc0c6635235d8c6f550bdd875dced28",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__forward.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/get.lua",
+                      "size":  4347,
+                      "sha256":  "3aae503d0f0ea3d4c0d7fe80660873eda0310c3fad67bb3611be1ed9de7e1f5b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__get.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/links",
+                      "size":  733,
+                      "sha256":  "e78ecd75129ec00b34a7f1d7cd8d9b676b2d4ad4a473a4614118589fa50ff1a2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__links"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/lp.lua",
+                      "size":  11516,
+                      "sha256":  "a5f51d23c516f58bd334b0211bbaf3edcd0fc654a419eef8623678d8f7124331",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__lp.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/qp.lua",
+                      "size":  964,
+                      "sha256":  "30c407da296894b47962fcf5e65e2ae81ca04133cd2665a4123eb01aaaef6acb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__qp.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/README",
+                      "size":  2972,
+                      "sha256":  "1ce74030b88db8d1c9078edcd4826bce380df7205078011a2adc261f42779fbc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__README"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/etc/tftp.lua",
+                      "size":  4798,
+                      "sha256":  "e67389a3493ae397016fca452fd22ca31a927ba5846b0eb44e4fae30b793e582",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__etc__tftp.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/cddb.lua",
+                      "size":  1419,
+                      "sha256":  "eb98f9fb7f9ec411876dd5c9a869976e326b9de7f3c0dd83d742117e12d63a3c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__cddb.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/daytimeclnt.lua",
+                      "size":  698,
+                      "sha256":  "da0dc11f0605194c8b06aa1e0b93c16ddd5d3f2f54811272c3a57c3ab76ff666",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__daytimeclnt.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/echoclnt.lua",
+                      "size":  695,
+                      "sha256":  "411df6aa9fb6ea9e6147e2e9556f8a06c8623949e42586d1c7a81f2c14febc16",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__echoclnt.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/echosrvr.lua",
+                      "size":  836,
+                      "sha256":  "dd75bd0594fbcb40983752dfb1d64c405116582cb727606b4d64ce557e0c0d85",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__echosrvr.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/listener.lua",
+                      "size":  756,
+                      "sha256":  "b8cb6eca752c9de8ab22f7ceaead777ca91bfef6e32895b2c3855f3f1f3550e9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__listener.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/lpr.lua",
+                      "size":  1561,
+                      "sha256":  "f5a5998f6d800363fd42dc615cbb92484cd64a5a3fdac6fda7b58a8aa8667aa9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__lpr.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/mclisten.lua",
+                      "size":  743,
+                      "sha256":  "a43da77f49919f58252de3b469c808414e5d02799b3f7b30db34318c3325ca01",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__mclisten.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/mcsend.lua",
+                      "size":  692,
+                      "sha256":  "fdfad743c71955e28ac9dbceb361128de374ba5b34c11ac5473006dcbb877bf1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__mcsend.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/README",
+                      "size":  1702,
+                      "sha256":  "eb99d549d3477b339fce7a129ec6146a01ba607af06510031205f199f421dcf0",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__README"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/talker.lua",
+                      "size":  708,
+                      "sha256":  "2246346bf4348beaca305e711f155ee256d52a5b45f98df5e79201959a2a7af4",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__talker.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/samples/tinyirc.lua",
+                      "size":  2711,
+                      "sha256":  "1d6ee340098bda2d12508b0538c4d6f4969ecf3e387e81d3bcfa600fc28657aa",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__samples__tinyirc.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/dicttest.lua",
+                      "size":  151,
+                      "sha256":  "971dd326ff9282449e51d391447996cb0b8c82a9886b1e29ff54dab815332576",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__dicttest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/excepttest.lua",
+                      "size":  149,
+                      "sha256":  "677c92e77c023d62af2c4f3865eeee77a9ac3342eb6e645ebb58428ebb9a8274",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__excepttest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/find-connect-limit",
+                      "size":  573,
+                      "sha256":  "ebf393950f2819aa8067cf59dd22cd6652176f185d5527a0fe42544fb8034e37",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__find-connect-limit"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/ftptest.lua",
+                      "size":  3156,
+                      "sha256":  "0773614b5a738f7998718d51958612ccc63b7e6985388d8b5721b83691c0b9a3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__ftptest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/hello.lua",
+                      "size":  135,
+                      "sha256":  "b41c7c3142592bd32a6ed22a46ac7745695ed4040513dd111234c3a761bb1693",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__hello.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/httptest.lua",
+                      "size":  11480,
+                      "sha256":  "1ba837f13ec6db0f002cceb6774f0f4ee0878bed9111a6a755c069b630b442d9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__httptest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/index.html",
+                      "size":  212888,
+                      "sha256":  "df8f9df2efca56354ab58839196dac148e4f2741b75e7a1a167e6db2de216877",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__index.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/ltn12test.lua",
+                      "size":  8625,
+                      "sha256":  "2b1720b61bdf4186c0a9d7e5e8f042baef9c7219eaf2f0b36ec1ffb7c4a25cf9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__ltn12test.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/luasocket.png",
+                      "size":  11732,
+                      "sha256":  "43f1a7e7247dc9e2b603343c57ef035011e5f26c3e2f51463e4100df70e344f2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__luasocket.png"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/mimetest.lua",
+                      "size":  8413,
+                      "sha256":  "fcfcbb16a7f1c65e348df8a2c89e52bdbd15ea68250f64c3a7690689c168093a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__mimetest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/README",
+                      "size":  367,
+                      "sha256":  "82793a37ff7ffe0528e3f508f6c6f59e3ae83bc23892b46bac0c460ad8e2577a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__README"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/smtptest.lua",
+                      "size":  5376,
+                      "sha256":  "b429241bd0f372f5f34fc83681b64335420cf9f515cdafa69a79a85b7f5b93ce",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__smtptest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/stufftest.lua",
+                      "size":  529,
+                      "sha256":  "bcec897b56b88cce5dc6fda5b0d0f3f11f2e0cc806e3c9dfd210194afe656cef",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__stufftest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/tcp-getoptions",
+                      "size":  597,
+                      "sha256":  "cbe7a23f05691d938d75d86442dd6157456703b17e73a3c546d0c4b803b19c2d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__tcp-getoptions"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/testclnt.lua",
+                      "size":  22707,
+                      "sha256":  "277ab5887b84414a86a684126aca534a2580cda3fd03d327c59d06bd2544e334",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__testclnt.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/testmesg.lua",
+                      "size":  2957,
+                      "sha256":  "00b01104e7e752d1a83660f2a940551b243c459526f738b4e0b2cc9dbd318ca9",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__testmesg.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/testsrvr.lua",
+                      "size":  526,
+                      "sha256":  "4f9c2c3ab02e9be017ac6754ed6592598513dffdaacb2a8d9f194d0cfb5d62ae",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__testsrvr.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/testsupport.lua",
+                      "size":  767,
+                      "sha256":  "372d9b114862b0e1111b09289d419241699aae5ea274792f6fc78df7bd8a057f",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__testsupport.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/test_bind.lua",
+                      "size":  290,
+                      "sha256":  "140624d2416244d85f2fae36d5d332094e74fe94e6ff8a2c1335459f40736ac1",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__test_bind.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/test_getaddrinfo.lua",
+                      "size":  394,
+                      "sha256":  "7dc1158c0843c88bbe524ac9d1ef0854886e0fb27f838753927cf3ea5a994f47",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__test_getaddrinfo.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/test_socket_error.lua",
+                      "size":  700,
+                      "sha256":  "f24edf4d2dc1bf3dc8704faf36165e87936ff92f60977294dc9e2f8500b62356",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__test_socket_error.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/tftptest.lua",
+                      "size":  539,
+                      "sha256":  "ae85ece3292bf751ac986db9aba7cda860474d096ea6770bc3c0c7db9021ee81",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__tftptest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/udp-zero-length-send",
+                      "size":  641,
+                      "sha256":  "8ba637602232dac9e0d7e109bde82548dccaa7aa54525e5819ab9913b52c292a",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__udp-zero-length-send"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/udp-zero-length-send-recv",
+                      "size":  825,
+                      "sha256":  "0f68ef5183d63221ea189952cb7907929ffa80df4eb08979592254cd3efc7341",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__udp-zero-length-send-recv"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/udpconnectclnt.lua",
+                      "size":  578,
+                      "sha256":  "0481a13321df6da52bef2b1696badb3d0e08451fe7ca9b2b42f05f07a46049d6",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__udpconnectclnt.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/udpconnectsrvr.lua",
+                      "size":  533,
+                      "sha256":  "8cd843e475bb6ad493ac8cdbcdca22a621cf3bb4c92669deebc966dc352a57cc",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__udpconnectsrvr.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/unixclnt.lua",
+                      "size":  185,
+                      "sha256":  "80e3696a5f421915b05f1c3872f1c2574cf2fdfd171cb92410fd4b0f5571d60c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__unixclnt.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/unixsrvr.lua",
+                      "size":  237,
+                      "sha256":  "378e0773005657fa9a5431a6c4d2ec837ddcd40dec431591d33956dc8f43e5ea",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__unixsrvr.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/upload.html",
+                      "size":  286,
+                      "sha256":  "593e8fd4b80570f2352618fab0d7f0ad2e4c3d4c94f8918f467f09b635ea9ec3",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__upload.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/urltest.lua",
+                      "size":  17349,
+                      "sha256":  "f743635fda98e7be6968c087519f161c62d0c039d9afe8a8ce19b4e0a3fb790c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__urltest.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/utestclnt.lua",
+                      "size":  18346,
+                      "sha256":  "2ccc6d9c7ee2130af12d469d0ed738343914cc54e349e715c133615977a219bd",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__utestclnt.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/utestsrvr.lua",
+                      "size":  470,
+                      "sha256":  "8d5a9ea1f16d75e5ee06c9fb09960fa11ce478727afcedcb09f31e73456a96fa",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__utestsrvr.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/auth/.htpasswd",
+                      "size":  24,
+                      "sha256":  "ab1fa035e7289ce57647d9003691a4a917bd3e37337b6d9301d9c9c5bd85b94d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__auth__.htpasswd"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/auth/index.html",
+                      "size":  212888,
+                      "sha256":  "df8f9df2efca56354ab58839196dac148e4f2741b75e7a1a167e6db2de216877",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__auth__index.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/cgi/cat",
+                      "size":  102,
+                      "sha256":  "a584a6ffeb3cdf243560fbe13d12a62d9a2e46cc865b9c7add92da03976f456c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__cgi__cat"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/cgi/cat-index-html",
+                      "size":  64,
+                      "sha256":  "0443083df92d03ae10dfe5c4998957c8b797aba2fe8814c90019fb1dd4193fb7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__cgi__cat-index-html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/cgi/env",
+                      "size":  50,
+                      "sha256":  "e16f77375bbaed556a05594bece603212947f56ac9255dda4657030c178fd27d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__cgi__env"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/cgi/query-string",
+                      "size":  64,
+                      "sha256":  "bd0cf14f365b4ad9b662aa8de7e07c13dffb17c392e5bf78fcd95a44ae424090",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__cgi__query-string"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/cgi/redirect-loop",
+                      "size":  60,
+                      "sha256":  "a1566dd3af5c86f17e044369b1caa845cc8784aadc05dd133b273d9371234d6b",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__cgi__redirect-loop"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/luasocket/3.0rc1-2/test/cgi/request-uri",
+                      "size":  63,
+                      "sha256":  "51b34acc157303858ff0a003accd9b2aaae3f4dd25c44d2e93ca2b5839743d27",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__luasocket__3.0rc1-2__test__cgi__request-uri"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/lzlib/0.4.1.53-1/lzlib-0.4.1.53-1.rockspec",
+                      "size":  821,
+                      "sha256":  "a4eb13ce3c4d53f7d624fc87e1965bc1e691fb7ec87c356bbdf8b14d5585448d",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__lzlib__0.4.1.53-1__lzlib-0.4.1.53-1.rockspec"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/lzlib/0.4.1.53-1/rock_manifest",
+                      "size":  377,
+                      "sha256":  "4c303f19e6f4cc5893ac0eb531572782c3ac8bb5c9d53de9d8ea13463a285d07",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__lzlib__0.4.1.53-1__rock_manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/lzlib/0.4.1.53-1/doc/README",
+                      "size":  4102,
+                      "sha256":  "b8c646a8a9c3628e15378b9591d3e5c1dfe28c2fd0a2cc9af1ee3f43169ffdd8",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__lzlib__0.4.1.53-1__doc__README"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/lzlib/0.4.1.53-1/doc/README.lgzip",
+                      "size":  4592,
+                      "sha256":  "9ef7b3a879ed5cac3ba6a12a048e8780e09dec36e9e556aada5631baca357d1c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__lzlib__0.4.1.53-1__doc__README.lgzip"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/md5-1.2-1.rockspec",
+                      "size":  968,
+                      "sha256":  "82ee5d7b9f88fffa990213abc9e58f811a5a9ed3dc8f515f3f07653fa9824cbd",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__md5-1.2-1.rockspec"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/rock_manifest",
+                      "size":  897,
+                      "sha256":  "5be02de4434f15f4fddde6acaf3dbe55a456b6677f24ec043a8fdaa2cc2f0791",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__rock_manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/doc/us/index.html",
+                      "size":  5633,
+                      "sha256":  "ad12614e1ad8792218a038003e5ada2a1be770c14e4b262d167a3d840180fe04",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__doc__us__index.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/doc/us/license.html",
+                      "size":  4460,
+                      "sha256":  "9b41aebe48355df49e9ecbca8725d755bf08bdcc2d9f1a75b51dfdbdc7695f18",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__doc__us__license.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/doc/us/manual.html",
+                      "size":  8861,
+                      "sha256":  "8ee330cc9c703fce3659b160eee089c25cd25d9ca660a905b46ae1680dde7354",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__doc__us__manual.html"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/doc/us/md5.png",
+                      "size":  4121,
+                      "sha256":  "4f3330c8a58c542f3b82d210a650279bea4e708ecb1b7d8b0eae6db1609e63bb",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__doc__us__md5.png"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/tests/test.lua",
+                      "size":  3819,
+                      "sha256":  "9c6ae82b1cbc685bed57fbe1a48f8564c819c6dc7e62cb5f15d8d564243073f2",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__tests__test.lua"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/tests/DES56/fdemo.c",
+                      "size":  4196,
+                      "sha256":  "8cab483605661ab240da7ba8949bb129f281b06a71e45de29b459a7838eab11c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__tests__DES56__fdemo.c"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/tests/DES56/ftest.c",
+                      "size":  4578,
+                      "sha256":  "b6f329b107a1e20c5ec9998500ee882efc852d0d4ec5f378991eb87f247f86c7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__tests__DES56__ftest.c"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/md5/1.2-1/tests/DES56/Makefile",
+                      "size":  583,
+                      "sha256":  "778ae4be8b2560438592f416d855974c74591d08cfa96e022346a36675c9f526",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__md5__1.2-1__tests__DES56__Makefile"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/mimetypes/1.0.0-2/mimetypes-1.0.0-2.rockspec",
+                      "size":  816,
+                      "sha256":  "956a3c258940d6e4bedfd45db64379daac18d4ae241cc25a5ff3ea2355e4fda7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__mimetypes__1.0.0-2__mimetypes-1.0.0-2.rockspec"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/mimetypes/1.0.0-2/rock_manifest",
+                      "size":  298,
+                      "sha256":  "8f9e017d114f64904ad352dda50a1477b4187c10efb25899ea980e83f7e93712",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__mimetypes__1.0.0-2__rock_manifest"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/mimetypes/1.0.0-2/doc/LICENSE",
+                      "size":  1373,
+                      "sha256":  "4be9303933b5dfb23f33bf2b174a13c80034ecbdd9ce3f1b02874ecf85dd852c",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__mimetypes__1.0.0-2__doc__LICENSE"
+                  },
+                  {
+                      "path":  "moonloader/luarocks/systree/rocks-5.1/mimetypes/1.0.0-2/doc/README",
+                      "size":  1851,
+                      "sha256":  "bc58f3de3669dd44898a98c19a55b61ff384f173c2d509eadad89010ec2ab567",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__luarocks__systree__rocks-5.1__mimetypes__1.0.0-2__doc__README"
+                  },
+                  {
+                      "path":  "moonloader/resource/ukmenu/map.png",
+                      "size":  3259117,
+                      "sha256":  "42374d58fae60d7ed26f00548ef65b83db23f25a8d94c64caa691a898125eab7",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__resource__ukmenu__map.png"
+                  },
+                  {
+                      "path":  "moonloader/resource/ukmenu/roads.bin",
+                      "size":  1048576,
+                      "sha256":  "2fbb330c7b5a28b267e952c4bc9b1aaf2b883f86265da865a3d375e41e0e5c63",
+                      "url":  "https://github.com/glovchesky188-source/ukbuild/releases/download/build-2/moonloader__resource__ukmenu__roads.bin"
                   },
                   {
                       "path":  "SAMP/blanktex.txd",
